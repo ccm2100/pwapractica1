@@ -1,0 +1,206 @@
+/* Estilo para el fondo de la página */
+body {
+    background-color: #f4f4f4; /* Fondo gris claro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado */
+.header {
+    background-color: #333; /* Fondo negro para el encabezado */
+    color: #fff; /* Texto en color blanco */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para el título */
+.header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Estilo para el cuerpo del currículum */
+.curriculum {
+    background-color: #fff; /* Fondo blanco para el cuerpo del currículum */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    padding: 20px;
+    margin: 20px;
+    width: 80%; /* Ancho del cuerpo del currículum */
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+
+/* Estilo para la sección de Datos Personales */
+.datos-personales {
+    background-color: #ffffff; /* Fondo gris claro */
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+/***************************** Estilo para la sección de la imagen ***************************************/
+
+
+/* Estilo para la imagen */
+.foto img {
+    float: right; /* Hace que la imagen flote a la derecha */
+    margin-left: 10px; /* Agrega un espacio entre la imagen y el texto */
+    margin-right: 20px;
+    max-width: 150px; /* Ajusta el tamaño de la imagen según tus preferencias */
+    border-radius: 10%; /* Para una apariencia de foto redonda */
+}
+
+/* Estilo para el título de Datos personales*/
+.datos-personales h2 {
+    background-color: #7598e5; 
+    font-size: 20px;
+    /*border-bottom: 1px solid #333; /* Línea divisoria debajo del título */
+    padding-bottom: 10px;
+    padding: 20px;
+  
+}
+/* ****************************Estilo para los elementos de la lista */
+.datos-personales ul {
+    list-style: none;
+    padding: 0;
+}
+
+.datos-personales li {
+    margin: 10px 0;
+    line-height: 1.5; /* Espaciado entre líneas */
+}
+/************************************************************************************************************/
+
+/* Estilo para la sección de Educación */
+.educacion {
+    margin-top: 30px;
+    background-color: #ffffff; 
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+/* Estilo para el título de Educación */
+.educacion h2 {
+    font-size: 20px;
+    background-color: #7598e5; 
+    border-bottom: 1px solid #333; /* Línea divisoria debajo del título */
+    padding-bottom: 10px;
+    padding: 20px;
+}
+
+/* Estilo para la lista de educación */
+.educacion ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilo para los elementos de la lista de educación */
+.educacion li {
+    margin: 10px 0;
+}
+
+/* Estilo para los títulos de los programas de educación */
+.educacion li strong {
+    font-weight: bold;
+}
+
+/* Estilo para las descripciones de los programas de educación */
+.educacion li span {
+    font-style: italic;
+}
+
+/******************************************************************************************/
+/* Estilo para el título de Educación */
+.experiencia-laboral h2 {
+    font-size: 20px;
+    background-color: #7598e5; 
+    border-bottom: 1px solid #333; /* Línea divisoria debajo del título */
+    padding-bottom: 10px;
+    padding: 20px;
+}
+/* Estilo para la sección de Experiencia Laboral */
+.experiencia-laboral {
+    background-color: #ffffff; 
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+/*************************************************************************************************/
+
+/* Estilo para la sección de Conocimientos */
+.conocimientos {
+    background-color: #ffffff; 
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+
+/* Estilo para el título de Conocimientos */
+.conocimientos h2 {
+    font-size: 20px;
+    background-color: #7598e5; /* Fondo azul claro */
+    color: #000000; /* Texto en color blanco */
+    border-bottom: 1px solid #333; /* Línea divisoria debajo del título */
+    padding: 20px 20px 10px 20px; /* Ajusta el espacio dentro del título */
+}
+
+/* Estilo para la lista de Conocimientos */
+.conocimientos ul {
+    list-style: none; /* Elimina las viñetas */
+    padding: 0;
+}
+
+/* Estilo para los elementos de la lista de Conocimientos */
+.conocimientos li {
+    margin: 10px 0;
+}
+
+/* Estilo para los títulos de los cursos */
+.conocimientos li strong {
+    font-weight: bold;
+}
+
+/* Estilo para las descripciones de los cursos */
+.conocimientos li span {
+    font-style: italic;
+}
+
+/*************************************************************************************************/
+
+/* Estilo para la sección de referencias */
+.referencias {
+    background-color: #ffffff; 
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+
+/* Estilo para el título de referencias */
+.referencias h2 {
+    font-size: 20px;
+    background-color: #7598e5; /* Fondo azul claro */
+    color: #000000; /* Texto en color blanco */
+    border-bottom: 1px solid #333; /* Línea divisoria debajo del título */
+    padding: 20px 20px 10px 20px; /* Ajusta el espacio dentro del título */
+}
+
+/* Estilo para la lista de referencias */
+.referencias ul {
+    list-style: none; /* Elimina las viñetas */
+    padding: 0;
+}
+
+/* Estilo para los elementos de la lista de referencias */
+.referencias li {
+    margin: 10px 0;
+}
+
+/* Estilo para los títulos de los cursos */
+.referencias li strong {
+    font-weight: bold;
+}
+
+/* Estilo para las descripciones de los cursos */
+.referencias li span {
+    font-style: italic;
+}
